@@ -16,8 +16,6 @@ get_header();
 ?>
 
 <div class="container">
-    <?=$_COOKIE['user']
-    ?>
     <div class="categories">
         <h1 class="categories__title mb-5">Категории:</h1>
         <?php

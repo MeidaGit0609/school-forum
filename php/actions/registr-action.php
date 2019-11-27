@@ -1,4 +1,5 @@
 <?php
+require_once $_SERVER['DOCUMENT_ROOT'] . '/php/functions/user_functions.php';
 session_start();
 
 $header = 'Location: /pages/registr.php?registr=';
@@ -13,7 +14,10 @@ if(isset($_POST['enter'])) {
     $password_repeat = htmlspecialchars($_POST['password-repeat']);
 
     // Проверка всех полей
-    if(is_numeric($name) && strlen($name) < 3 && strlen($name) > 50) {
+    if(search_user_by_name($name) == true) {
+        $header .= 'user_repeat';
+    }
+    elseif(is_numeric($name) && strlen($name) < 3 && strlen($name) > 50) {
         $header .= 'big-name';
     }
     elseif(!filter_var($email, FILTER_VALIDATE_EMAIL) && strlen($email) > 89) {

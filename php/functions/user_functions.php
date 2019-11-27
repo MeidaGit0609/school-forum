@@ -36,3 +36,21 @@ function user_id_by_name($name) {
 
     return $id;
 }
+
+function search_user_by_name($name) {
+    global $db;
+
+    $sql = "SELECT * FROM `users` WHERE `name` = :name";
+    $query = $db->prepare($sql);
+    $query->execute([
+        'name' => $name
+    ]);
+    $num = $query->rowCount();
+
+    if($num < 1) {
+        return false;
+    }
+    else {
+        return true;
+    }
+}

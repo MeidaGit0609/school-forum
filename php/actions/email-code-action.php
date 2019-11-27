@@ -14,7 +14,7 @@ if(isset($_POST['enter']) && isset($_SESSION['email_code'])) {
     $password   = $_SESSION['password'];
 
     if($code != $_POST['code']) {
-        $header .= 'code_fail';
+        $header .= 'code&code=fail';
     }
     else {
 
@@ -30,6 +30,6 @@ if(isset($_POST['enter']) && isset($_SESSION['email_code'])) {
     }
 }
 
-//echo $id;
-session_destroy();
+//print_r($_SESSION);
+//session_destroy();
 header($header);
