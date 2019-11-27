@@ -16,7 +16,8 @@ get_header();
 ?>
 
 <div class="container">
-
+    <?=$_COOKIE['user']
+    ?>
     <div class="categories">
         <h1 class="categories__title mb-5">Категории:</h1>
         <?php
@@ -30,7 +31,7 @@ get_header();
                 </div>
 
                 <div class="categories__right">
-                    <h4 class="categories__count">Количество тем: 4</h4>
+                    <h4 class="categories__count">Количество постов: 4</h4>
                 </div>
             </a>
         <?php endforeach; ?>
