@@ -1,0 +1,19 @@
+# Кодировка
+AddDefaultCharset UTF-8
+
+# запрет листинга каталогов
+Options -Indexes
+
+# Файлы без расширения
+Options +MultiViews
+
+
+
+
+
+
+
+
+
+
+

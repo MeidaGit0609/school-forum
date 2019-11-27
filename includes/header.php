@@ -1,0 +1,13 @@
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/php/config.php';
+
+function get_header() {
+    global $config;
+?>
+    <nav class="navbar navbar-light bg-light mb-5">
+        <a class="navbar-brand"><?=$config['logo'] ?></a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+<?php } ?>
