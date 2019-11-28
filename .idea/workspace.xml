@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="976fd0ec-165a-45ee-adaf-113da32671fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/actions/auth-action.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/registr.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/registr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/actions/email-code-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/actions/email-code-action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/actions/registr-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/actions/registr-action.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/functions/user_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/functions/user_functions.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +31,6 @@
   </component>
   <component name="ProjectId" id="1UA6bgmreDJPAjmWRlOUkkLjmNA" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -73,7 +69,8 @@
       <workItem from="1574844104346" duration="10478000" />
       <workItem from="1574863774633" duration="1607000" />
       <workItem from="1574865447908" duration="1726000" />
-      <workItem from="1574867261621" duration="14303000" />
+      <workItem from="1574867261621" duration="15807000" />
+      <workItem from="1574948339669" duration="3302000" />
     </task>
     <servers />
   </component>
@@ -85,7 +82,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
